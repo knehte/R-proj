@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to say hello
     steps:
-      - uses: test/checkout@v4
+      - uses: actions/checkout@v4
       - id: foo
         uses: knehte/R-proj@228cca061a1bdd0bbf84b84fd5ac71c57ff20f79
         with:
